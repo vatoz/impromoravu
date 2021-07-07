@@ -59,7 +59,7 @@ a {
 }
 
 #main {
-    background-color:#fefefe;
+    background-color:transparent;
 }
 #main .img-circle {
   margin-top:18px;
@@ -75,10 +75,9 @@ a {
 #sidebar a.logo {
   display:block;
   padding:3px;
-  background-color:#fff;
+
   color:#777777;
-  height:40px;
-  width:40px;
+  
   margin:15px;
   font-size:26px;
   font-weight:700;
@@ -151,13 +150,19 @@ h4{
 color:#cc4127;
 font-size: 37px;
 }
+.city{
+color:#cc4127;
+font-size: 28px;
+font-family: 'Suez One', serif;
+}
+
 .show  {
   border-radius: 25px;
-  background: rgba(255,255,255,50);
+  background-color:  rgba(255,255,255,0.7);
   padding: 20px;
   margin:10px 10px 10px 10px;
-  
-  border:thin solid black;
+
+  //border:thin solid black;
 
 
 
