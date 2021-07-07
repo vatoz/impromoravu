@@ -1,6 +1,6 @@
 /* move special fonts to HTML head for better performance */
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700&subset=latin,latin-ext');
-
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 
 /* custom template */
 html, body {
@@ -114,9 +114,9 @@ a {
 
 /* bootstrap overrides */
 
-h1,h2,h3 {
-   font-weight:800;
-   font-family:'Open Sans',arial,sans-serif;
+h1,h2,h3,h4 {
+
+   font-family: 'Suez One', serif;
 }
 
 .jumbotron {
@@ -145,4 +145,30 @@ small.text-muted {
 p a{
     color:#374a9a;
 
+}
+
+h4{
+color:#cc4127;
+font-size: 37px;
+}
+.show  {
+  border-radius: 25px;
+  background: rgba(255,255,255,50);
+  padding: 20px;
+  margin:10px 10px 10px 10px;
+  
+  border:thin solid black;
+
+
+
+}
+
+.datum{
+  color:#2871a1;
+  float:left; font-size:50px;
+  line-height: 50px;
+  font-family: 'Suez One', serif;
+}
+.datum span{
+  font-size:20px;
 }
